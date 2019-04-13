@@ -7,8 +7,8 @@ Scikit-learn pipeline trained on Titanic data, deployed as an API with Flask
 Make a POST request to `/predict` with JSON data
 
 ```
-"columns":["sex","age","pclass"],
-"data":[["male",30,3],["female",NaN,1]]
+{"columns":["sex","age","pclass"],
+ "data":[["male",30,3],["female",NaN,1]]}
 ```
 
 Get back a JSON array of predictions
